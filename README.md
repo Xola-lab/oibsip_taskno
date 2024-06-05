@@ -359,7 +359,7 @@ Random Forest:
 
 Stochastic Gradient Descent:
 <p align="center">
-<img src="">
+<img src="2 - Wine Prediction (Files)/7b - MODEL EVALUATION - SGD.png">
 </p>
 <p align="center">
 <img src="">
