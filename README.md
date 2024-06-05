@@ -238,7 +238,7 @@ Fortunately, this dataset also had neither Duplicates nor Null Values:
 </p>
 
 <p align="center"> 
-<img src="">
+<img src="2 - Wine Prediction (Files)/3a  - DATA INSPECTION -- NULL VALUE RESULT.png">
 </p>
 
 ### Feature Selection
