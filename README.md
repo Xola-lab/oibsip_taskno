@@ -362,7 +362,7 @@ Stochastic Gradient Descent:
 <img src="2 - Wine Prediction (Files)/7b - MODEL EVALUATION - SGD.png">
 </p>
 <p align="center">
-<img src="">
+<img src="2 - Wine Prediction (Files)/7bb - MODEL EVALUATION - SDG.png">
 </p>
 
 Support Vector Classifier:
