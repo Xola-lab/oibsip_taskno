@@ -11,7 +11,7 @@ There are 3 projects under this repo:
 The main goal of this project is to build a predictive model using Linear Regression to estimate house prices based on certain features.
 
 ### Data Sources
-Kaggle Dataset: The project utilises a publicly available housing dataset found on Kaggle.
+Kaggle Dataset: The project utilises a publicly available housing dataset found on Kaggle ("Housing.csv").
 
 ### Tools
 Python - EDA, Cleaning, Analysis and Visualisation.
