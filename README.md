@@ -87,7 +87,8 @@ Only 6 columns were chosen, 'price' being the target and the rest of the columns
 ### Exploratory Data Analysis 
 The next thing I did was do a correlation check on the remaining data, I did this by utilising Seaborn's heat map:
 ```
-sns.heatmap(relevant_feats.corr(), annot=True, cmap='coolwarm'
+sns.heatmap(relevant_feats.corr(), annot=True, cmap='coolwarm')
+plot.show()
 ```
 
 The result was as follows:
@@ -95,3 +96,59 @@ The result was as follows:
 <IMG
 SRC=" "
 </p>
+
+### Model Training
+This process involved splitting the data into a Training and a Test Set, creating a Regressor, and fitting the model:
+```
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+reg = LinearRegression()
+reg.fit(X_train, y_train)
+
+### Prediction
+After the model had been trained and a fitting done, the next step was to make a prediction.
+For making the prediction, I used the following code:
+```
+y_pred = reg.predict(X_test)
+```
+
+### Model Evaluation 
+The next step in the process was to evaluate the performance of the model:
+```
+print("Coefficients: \n", reg.coef_)
+print("Variance Score: {}".format(reg.score(X_test, y_test)))
+
+print("\nMODEL EVALUATION")
+mse = round(mean_squared_error(y_test, y_pred), 2)
+rs = round(r2_score(y_test, y_pred), 2)
+print("Mean Squared Error: ", mse)
+print("R Squared Score: ", rs)
+```
+
+The result looked like this:
+<p align="center">
+<IMG
+SRC=" "
+</p>
+
+
+### Data Visualisation 
+The last and final step was to plot the regression:
+```
+plt.style.use('fivethirtyeight')
+plt.scatter(y_pred, y_test, color='g')
+plt.suptitle('Actual vs. Predicted House Prices')
+plt.xlabel('Actual Price')
+plt.ylabel('Predicted Prices')
+plt.show()
+```
+This was the resulting graph:
+<p align="center">
+<IMG
+SRC=" "
+</p>
+
+#### Summary:
+This project involved Exploring and Cleaning the data, Feature Selection, Model Training and Evaluation, Making the Prediction, and finally, Visualisation.
+
+Thank you!
