@@ -52,6 +52,11 @@ This was the result:
 ```
 housing.info()
 ```
+
+<p align="center"> 
+<img src="1 - House Price Prediction (Files)/EDA RESULTS/SHAPE AND INFO RESULT.png">
+</p>
+
 - I then checked if the data had any duplicated values
 ```
 housing.duplicated()
