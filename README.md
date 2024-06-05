@@ -283,7 +283,7 @@ plt.show()
 This was the result for the Correlation Check:
 
 <p align="center">
-<img src="">
+<img src="2 - Wine Prediction (Files)/5a - DATA PREPROCESSING - HEAT MAP.png">
 </p>
 
 As can be seen, some of the chemical characteristics have a negative correlation. What this mean is, when the quality increases, the chemicals effect decreases -- and vice versa.
