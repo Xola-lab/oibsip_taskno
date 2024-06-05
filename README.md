@@ -367,7 +367,7 @@ Stochastic Gradient Descent:
 
 Support Vector Classifier:
 <p align="center">
-<img src="">
+<img src="2 - Wine Prediction (Files)/7c - MODEL EVALUATION - SVC.png">
 </p>
 <p align="center">
 <img src="">
