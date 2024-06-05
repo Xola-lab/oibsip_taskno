@@ -136,6 +136,7 @@ The result looked like this:
 SRC="1 - House Price Prediction (Files)/8a - MODEL EVALUATION - RESULT.png"
 </p>
 
+But what does this mean? Firstly, the variance score here means that nearly 54.6% of the variance in the target (Price) can be explained by the features (area, bedrooms, bathrooms, and parking). Secondly, this compliments the R-squared score of 0.55, which indicates that the model only explains a small amount of the variability in the price. However, given the correlation analysis and the fact that these features do not strongly reflect the linear relationship, we can rest assured that the model can still produce valid results -- although there is room for some moderation (and improvement).
 
 ### Data Visualisation 
 The last and final step was to plot the regression:
