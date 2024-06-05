@@ -242,7 +242,7 @@ Fortunately, this dataset also had neither Duplicates nor Null Values:
 </p>
 
 ### Feature Selection
-AGain, it was imperative to select the relevant features for the models:
+Again, it was imperative to select the relevant features for the models:
 
 ```
 # (Chemical Qualities) Selecting Density and Acidity -- Feature Selection
@@ -264,6 +264,35 @@ Having dropped these other features, the remaining features were as follows:
 
 <p align="center"> 
 <img src="2 - Wine Prediction (Files)/4a - FEATURE SELECTION - RESULT.png">
+</p>
+
+### Data Preprocessing
+With the relevant data selected, it was now time to explore the data by checking Correlation and Distribution:
+
+```
+# Exploratory Data Analysis (EDA) -- Data Preprocessing
+'''Correlation Check'''
+sns.heatmap(chemical_chars.corr(), annot=True, cmap='coolwarm')
+plt.show()
+
+'''Distribution Analysis'''
+sns.pairplot(chemical_chars)
+plt.show()
+```
+
+This was the result for the Correlation Check:
+
+<p align="center">
+<img src="">
+</p>
+
+As can be seen, some of the chemical characteristics have a negative correlation. What this mean is, when the quality increases, the chemicals effect decreases -- and vice versa.
+The other features do have a correlation, but it's not strong enough. However, this isn't enough to disregard these features yet -- "Correlation does not mean Causation".
+
+As for the Distribution:
+
+<p align="center">
+<img src="">
 </p>
 
 
