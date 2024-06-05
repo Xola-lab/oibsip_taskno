@@ -69,4 +69,11 @@ relevant_feats = housing.drop(
 ```
 The data being dropped here are the columns containing Categorical data (e.g., "Yes", "No", etc.).
 The only data remaining now was the relevant features needed for the analysis.
-The output for the above code was as follows:
+
+Then, having removed the Categorical data, I set the Target (y) and Features (X) variables:
+```
+y = relevant_feats.iloc[:, [0]].values # The 'price' column -- Target.
+X = relevant feats.iloc[:, [1, 2, 3, 4, 5]].values # The 'area' to 'parking' columns -- Features.
+```
+
+![alt text]
