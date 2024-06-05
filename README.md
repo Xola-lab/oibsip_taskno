@@ -53,7 +53,7 @@ There were 545 rows and 13 columns.
 ```
 housing.duplicated()
 ```
-Result:
+There duplicates in the data.
 
 <p align="center"> 
 <img src="1 - House Price Prediction (Files)/EDA RESULTS/DUPLICATES CHECK - RESULT.png">
@@ -63,6 +63,11 @@ Result:
 ```
 housing.isnull().sum()
 ```
+There were no missing values in the data:
+
+<p align="center"> 
+<img src="1 - House Price Prediction (Files)/EDA RESULTS/NULL VALUE CHECK - RESULT.png">
+</p>
 
 The Data did not contain any duplicated values or any null values.
 
