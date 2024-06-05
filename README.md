@@ -370,9 +370,27 @@ Support Vector Classifier:
 <img src="2 - Wine Prediction (Files)/7c - MODEL EVALUATION - SVC.png">
 </p>
 <p align="center">
-<img src="">
+<img src="2 - Wine Prediction (Files)/7cc - MODEL EVALUATION - SVC.png">
 </p>
 
+If these evaluations do not make sense at this point, fret not, the last part of the project will clear it up.
+
+### Data Visualisation
+This was final step involves visualising the accuracy each of these models:
+
+```
+# Plotting and Visualisation -- Data Visualisation
+models = ["Random Forest Model", "Stochastic Gradient Descent", "Support Vector Classifier"]
+accuracy = [rand_f_acc, sgd_acc, svc_acc]
+
+plt.figure(figsize=(10, 6))
+plt.bar(models, accuracy, color=['g', 'r', 'blue'])
+plt.xlabel("Models")
+plt.ylabel("Model Accuracy")
+plt.title("Accuaracy vs. Model")
+plt.ylim(0, 1)
+plt.show()
+```
 
 
 
