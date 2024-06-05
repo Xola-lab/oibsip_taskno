@@ -328,7 +328,50 @@ svc_pred = svc_mod.predict(X_test)
 svc_acc = accuracy_score(y_test, svc_pred)
 ```
 
+### Model Performance
+Having trained the models, the next step in the process is to provide each model's performance:
 
+```
+# Performance Check -- Model Evaluation
+print("MODEL EVALUATION")
+'''Model 1 Evaluation'''
+print("RANDOM FOREST")
+print("Random Forest Accuracy: ", rand_f_acc)
+print("Report: ", report(y_test, rand_f_pred))
+
+'''Model 2 Evaluation'''
+print("STOCHASTIC GRADIENT DESCENT")
+print("SGD Accuracy: ", sgd_acc)
+print("SGD Report: ", report(y_test, sgd_pred))
+
+'''Model 3 Evaluation'''
+print("SUPPORT VECTOR CLASSIFIER")
+print("SVC Accuracy: ", svc_acc)
+print("SVC Report: ", report(y_test, svc_pred))
+```
+
+Output:
+
+Random Forest:
+<p align="center">
+<img src="">
+</p>
+
+Stochastic Gradient Descent:
+<p align="center">
+<img src="">
+</p>
+<p align="center">
+<img src="">
+</p>
+
+Support Vector Classifier:
+<p align="center">
+<img src="">
+</p>
+<p align="center">
+<img src="">
+</p>
 
 
 
