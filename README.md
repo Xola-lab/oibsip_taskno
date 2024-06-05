@@ -131,7 +131,7 @@ The result looked like this:
 
 <p align="center">
 <IMG
-SRC=" "
+SRC="1 - House Price Prediction (Files)/8a - MODEL EVALUATION - RESULT.png"
 </p>
 
 
