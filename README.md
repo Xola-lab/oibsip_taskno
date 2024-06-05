@@ -95,7 +95,7 @@ The result was as follows:
 
 <p align="center">
 <IMG
-SRC=" "
+SRC="1 - House Price Prediction (Files)/5 - CORRELATION CHECK - RESULT.jpg"
 </p>
 
 ### Model Training
