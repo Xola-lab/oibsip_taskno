@@ -255,7 +255,7 @@ chemical_chars = wine.drop(
 
 print(chemical_chars.head())
 
-'''Next, we want to dtermine the Target and Feature variables'''
+'''Next, we want to determine the Target and Feature variables'''
 X = chemical_chars.iloc[:, [0, 1, 2, 3, 4, 5, 6]].values # This selects our Feature variables
 y = chemical_chars.iloc[:, [7]].values # This selects our Target variable -- The 'price' column
 ```
