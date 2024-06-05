@@ -234,7 +234,7 @@ print(wine.isnull().sum())
 Fortunately, this dataset also had neither Duplicates nor Null Values:
 
 <p align="center"> 
-<img src="">
+<img src="2 - Wine Prediction (Files)/3b - DATA INSPECTION - DUPLICATES RESULTS.png">
 </p>
 
 <p align="center"> 
