@@ -98,6 +98,8 @@ The result was as follows:
 SRC="1 - House Price Prediction (Files)/5 - CORRELATION CHECK - RESULT.jpg"
 </p>
 
+Although the correlation had a relatively weak linear relationship (less than 0.6), the changes in these features are not strongly reflected in the changes in Price. This correlation does not precisely capture all the relationships, and there are meaningful connections that are not exactly linear. For example, in the real estate world, one may find that houses with more bedrooms normally have high prices -- this is the same with the rest of the features.
+
 ### Model Training
 This process involved splitting the data into a Training and a Test Set, creating a Regressor, and fitting the model:
 ```
@@ -151,6 +153,10 @@ This was the resulting graph:
 <IMG
 SRC="1 - House Price Prediction (Files)/9a - DATA VIZ. - RESULT.png"
 </p>
+
+Athough in the correlation analysis there wasn't a weak correlation, the linear regression model still accounted for these factors and still found a linear relationship. Also, the size of the sample played a role in this result: 80% of the Housing data was used for training the model, whilst the remaining 20% was used for testing the model. Another thing to consider is that Linear Regression assumes a linear relationship between the Target variable and the Features.
+
+Other conditions of the model have been met, despite the weak correlation; and therefore, the model still produced valid results.
 
 #### Summary:
 This project involved Exploring and Cleaning the data, Feature Selection, Model Training and Evaluation, Making the Prediction, and finally, Visualisation.
