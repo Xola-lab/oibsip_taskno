@@ -46,3 +46,27 @@ housing.describe()
 ```
 housing.info()
 ```
+- I then checked if the data had any duplicated values
+```
+housing.duplicated()
+```
+- I also checked for any null values in the dataset
+```
+housing.isnull().sum()
+```
+
+The Data did not contain any duplicated values or any null values.
+
+### Feature Selection
+The data contains Quantitative and Categorical Data. To make the model, we need only the Quantitative data. 
+So, I removed the Categorical data in the dataset with the following code:
+```
+relevant_feats = housing.drop(
+    [
+        'mainroad', 'guestroom', 'basement', 'hotwaterheating', 'airconditioning', 'prefarea', 'furnishingstatus'
+    ], axis=1
+)
+```
+The data being dropped here are the columns containing Categorical data (e.g., "Yes", "No", etc.).
+The only data remaining now was the relevant features needed for the analysis.
+The output for the above code was as follows:
