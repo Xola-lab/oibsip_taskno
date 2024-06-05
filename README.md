@@ -42,6 +42,12 @@ To get a glance at the data, I performed some simple commands:
 ```
 housing.describe()
 ```
+This was the result:
+
+<p align="center"> 
+<img src="">
+</p>
+
 - I looked at the info() function to understand the rows and columns I was dealing with
 ```
 housing.info()
