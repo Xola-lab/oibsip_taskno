@@ -231,6 +231,16 @@ print(wine.duplicated())
 print(wine.isnull().sum())
 ```
 
+Fortunately, this dataset also had neither Duplicates nor Null Values:
+
+<p align="center"> 
+<img src="">
+</p>
+
+<p align="center"> 
+<img src="">
+</p>
+
 ### Feature Selection
 AGain, it was imperative to select the relevant features for the models:
 
@@ -253,7 +263,7 @@ y = chemical_chars.iloc[:, [7]].values # This selects our Target variable -- The
 Having dropped these other features, the remaining features were as follows:
 
 <p align="center"> 
-<img src="">
+<img src="2 - Wine Prediction (Files)/4a - FEATURE SELECTION - RESULT.png">
 </p>
 
 
