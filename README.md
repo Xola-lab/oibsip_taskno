@@ -221,3 +221,59 @@ Then, loading the Data:
 # Data Import
 wine = pd.DataFrame(pd.read_csv("WineQT.csv"))
 ```
+
+### Data Cleaning
+These next steps are not dissimilar from the first project. Here, I inspected the data first and checked for any duplicates or null values.
+
+```
+'''Cleaning'''
+print(wine.duplicated())
+print(wine.isnull().sum())
+```
+
+### Feature Selection
+AGain, it was imperative to select the relevant features for the models:
+
+```
+# (Chemical Qualities) Selecting Density and Acidity -- Feature Selection
+'''First, we want to drop all characteristics that are deemed irrelevant'''
+chemical_chars = wine.drop(
+    [
+        "residual sugar", "chlorides", "free sulfur dioxide", "sulphates", "Id"
+    ], axis=1
+)
+
+print(chemical_chars.head())
+
+'''Next, we want to dtermine the Target and Feature variables'''
+X = chemical_chars.iloc[:, [0, 1, 2, 3, 4, 5, 6]].values # This selects our Feature variables
+y = chemical_chars.iloc[:, [7]].values # This selects our Target variable -- The 'price' column
+```
+
+Having dropped these other features, the remaining features were as follows:
+
+<p align="center"> 
+<img src="">
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
