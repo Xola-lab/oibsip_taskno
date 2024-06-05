@@ -292,7 +292,7 @@ The other features do have a correlation, but it's not strong enough. However, t
 As for the Distribution:
 
 <p align="center">
-<img src="">
+<img src="2 - Wine Prediction (Files)/5b - DATA PREPROCESSING - PAIRPLOT.png">
 </p>
 
 
