@@ -172,9 +172,9 @@ The main objective of this project is to predict the quality of wine based on ce
 Kaggle Dataset: This project also uses a publicly available dataset found on Kaggle.
 
 ### Tools
-Python - EDA, Cleaning, Data Visualisation
-- Pandas
+Python - EDA, Cleaning, Data Analysis, and Data Visualisation.
 - Numpy
+- Pandas
 - Matplotlib
 - Seaborn
 - Sci-kit Learn
