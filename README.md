@@ -76,4 +76,6 @@ y = relevant_feats.iloc[:, [0]].values # The 'price' column -- Target.
 X = relevant feats.iloc[:, [1, 2, 3, 4, 5]].values # The 'area' to 'parking' columns -- Features.
 ```
 
-![alt text]
+<p align="center"> 
+<img src="4a - FEATURE SELECTION - RESULT_055145.png">
+</p>
