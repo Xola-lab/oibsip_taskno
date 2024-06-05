@@ -8,7 +8,7 @@ There are 3 projects under this repo:
 (Project 1 Proposal. Level 2.)
 
 ### Overview
-The main goal of this project is to build a predictive model using Linear Regression to estimate house prices based on certain features.
+The main goal of this project is to build a predictive model using Multiple Linear Regression to estimate house prices based on certain features.
 
 ### Data Sources
 Kaggle Dataset: The project utilises a publicly available housing dataset found on Kaggle ("Housing.csv").
