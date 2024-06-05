@@ -295,6 +295,37 @@ As for the Distribution:
 <img src="2 - Wine Prediction (Files)/5b - DATA PREPROCESSING - PAIRPLOT.png">
 </p>
 
+Essentially, what this means/depicts is the Distribution of each quality with each other.
+
+### Model Training (Classifier Models)
+This step is similar to the first project and, as you'll see, the only difference is that there is more than one Model -- There are three models, each simple to initiate.
+
+```
+# Validation Split: Training and Test Sets -- Model Training/Classifier Models
+'''Splitting the Data'''
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+'''Model Selection 1 - Random Forest'''
+rand_f = RandomForestClassifier(n_estimators=100, random_state=42)
+rand_f.fit(X_train, y_train) # Model Fitting
+
+rand_f_pred = rand_f.predict(X_test) # Prediction
+rand_f_acc = accuracy_score(y_test, rand_f_pred) # Accuracy
+
+'''Model Selection 2 - Stochastic Gradient Descent'''
+sgd_mod = SGDClassifier(random_state=42)
+sgd_mod.fit(X_train, y_train)
+
+sgd_pred = sgd_mod.predict(X_test)
+sgd_acc = accuracy_score(y_test, sgd_pred)
+
+'''Model Selection 3 - Support Vector Classifier'''
+svc_mod = SVC(kernel='linear')
+svc_mod.fit(X_train, y_train)
+
+svc_pred = svc_mod.predict(X_test)
+svc_acc = accuracy_score(y_test, svc_pred)
+```
 
 
 
