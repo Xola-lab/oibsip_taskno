@@ -79,7 +79,7 @@ X = relevant feats.iloc[:, [1, 2, 3, 4, 5]].values # The 'area' to 'parking' col
 The result of the above code was as follows:
 
 <p align="center"> 
-<img src=" ">
+<img src="1 - House Price Prediction (Files)/4a - FEATURE SELECTION - RESULT.png">
 </p>
 
 Only 6 columns were chosen, 'price' being the target and the rest of the columns as the 'features'.
