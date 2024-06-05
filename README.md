@@ -92,6 +92,7 @@ plot.show()
 ```
 
 The result was as follows:
+
 <p align="center">
 <IMG
 SRC=" "
@@ -126,6 +127,7 @@ print("R Squared Score: ", rs)
 ```
 
 The result looked like this:
+
 <p align="center">
 <IMG
 SRC=" "
@@ -143,6 +145,7 @@ plt.ylabel('Predicted Prices')
 plt.show()
 ```
 This was the resulting graph:
+
 <p align="center">
 <IMG
 SRC=" "
