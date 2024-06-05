@@ -299,6 +299,7 @@ Essentially, what this means/depicts is the Distribution of each quality with ea
 
 ### Model Training (Classifier Models)
 This step is similar to the first project and, as you'll see, the only difference is that there is more than one Model -- There are three models, each simple to initiate.
+However, it would be remiss not to split the data before model selection, so the first step was to split the data and then train the three models as well as fit the models to the data and, lastly, making the predictions and providing the accuracy scores:
 
 ```
 # Validation Split: Training and Test Sets -- Model Training/Classifier Models
