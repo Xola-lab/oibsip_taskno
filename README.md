@@ -45,7 +45,7 @@ housing.describe()
 This was the result:
 
 <p align="center"> 
-<img src="">
+<img src="1 - House Price Prediction (Files)/EDA RESULTS/DESCRIBE - RESULT.png">
 </p>
 
 - I looked at the info() function to understand the rows and columns I was dealing with
