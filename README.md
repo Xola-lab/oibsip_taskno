@@ -354,7 +354,7 @@ Output:
 
 Random Forest:
 <p align="center">
-<img src="">
+<img src="2 - Wine Prediction (Files)/7a - MODEL EVALUATION - RANDOM FOREST.png">
 </p>
 
 Stochastic Gradient Descent:
