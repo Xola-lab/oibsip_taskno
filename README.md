@@ -162,4 +162,19 @@ Other conditions of the model have been met, despite the weak correlation; and t
 #### Summary:
 This project involved Exploring and Cleaning the data, Feature Selection, Model Training and Evaluation, Making the Prediction, and finally, Visualisation.
 
-Thank you!
+## 2 - Wine Quality Prediction
+(Project 2 Proposal. Level 2.)
+
+### Overview
+The main objective of this project is to predict the quality of wine based on certain chemical characteristics, namely 'Density' and 'Acidity'.
+
+### Data Sources
+Kaggle Dataset: This project also uses a publicly available dataset found on Kaggle.
+
+### Tools
+Python - EDA, Cleaning, Data Visualisation
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
+- Sci-kit Learn
