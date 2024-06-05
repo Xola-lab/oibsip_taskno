@@ -149,7 +149,7 @@ This was the resulting graph:
 
 <p align="center">
 <IMG
-SRC=" "
+SRC="1 - House Price Prediction (Files)/9a - DATA VIZ. - RESULT.png"
 </p>
 
 #### Summary:
