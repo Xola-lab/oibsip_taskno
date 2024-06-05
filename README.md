@@ -76,6 +76,8 @@ y = relevant_feats.iloc[:, [0]].values # The 'price' column -- Target.
 X = relevant feats.iloc[:, [1, 2, 3, 4, 5]].values # The 'area' to 'parking' columns -- Features.
 ```
 
+The result of the above code was as follows:
+
 <p align="center"> 
 <img src="https://github.com/Xola-lab/OASIS-INFOBYTE-INTERNSHIP-PROJECTS/blob/main/4a%20-%20FEATURE%20SELECTION%20-%20RESULT_055145.png">
 </p>
