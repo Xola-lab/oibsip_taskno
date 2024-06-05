@@ -105,6 +105,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 reg = LinearRegression()
 reg.fit(X_train, y_train)
+```
 
 ### Prediction
 After the model had been trained and a fitting done, the next step was to make a prediction.
