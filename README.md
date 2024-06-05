@@ -77,5 +77,5 @@ X = relevant feats.iloc[:, [1, 2, 3, 4, 5]].values # The 'area' to 'parking' col
 ```
 
 <p align="center"> 
-<img src="4a - FEATURE SELECTION - RESULT_055145.png">
+<img src="https://github.com/Xola-lab/OASIS-INFOBYTE-INTERNSHIP-PROJECTS/blob/main/4a%20-%20FEATURE%20SELECTION%20-%20RESULT_055145.png">
 </p>
