@@ -192,3 +192,32 @@ Python - EDA, Cleaning, Data Analysis, and Data Visualisation.
 - Matplotlib
 - Seaborn
 - Sci-kit Learn
+
+### Library and Data Import
+The first thing here is to import all the required libraries:
+```
+# Library Import
+'''Dealing with the raw data'''
+import pandas as pd
+
+'''Data Visualisation'''
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+'''Model Training'''
+from sklearn.model_selection import train_test_split
+
+'''The Classifier Models'''
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
+from sklearn.linear_model import SGDClassifier
+
+'''Model Evaluation'''
+from sklearn.metrics import accuracy_score, classification_report as report
+```
+
+Then, loading the Data:
+```
+# Data Import
+wine = pd.DataFrame(pd.read_csv("WineQT.csv"))
+```
