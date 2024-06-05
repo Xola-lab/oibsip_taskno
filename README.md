@@ -83,3 +83,15 @@ The result of the above code was as follows:
 </p>
 
 Only 6 columns were chosen, 'price' being the target and the rest of the columns as the 'features'.
+
+### Exploratory Data Analysis 
+The next thing I did was do a correlation check on the remaining data, I did this by utilising Seaborn's heat map:
+```
+sns.heatmap(relevant_feats.corr(), annot=True, cmap='coolwarm'
+```
+
+The result was as follows:
+<p align="center">
+<IMG
+SRC=" "
+</p>
