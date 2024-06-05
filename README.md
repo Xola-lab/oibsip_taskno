@@ -81,3 +81,5 @@ The result of the above code was as follows:
 <p align="center"> 
 <img src="https://github.com/Xola-lab/OASIS-INFOBYTE-INTERNSHIP-PROJECTS/blob/main/4a%20-%20FEATURE%20SELECTION%20-%20RESULT_055145.png">
 </p>
+
+Only 6 columns were chosen, 'price' being the target and the rest of the columns as the 'features'.
