@@ -443,11 +443,39 @@ print(retail.isnull().sum())
 Output:
 
 <p align="center">
-<img src="">
+<img src="3 - EDA on Retail Sails Data (Files)/EXPLORATION.png">
 </p>
 
+### Sales Over Time Analysis
 
+```python
 
+# Sales Trend over time
+'''Converting the 'Date' column to datetime format'''
+retail['Date'] = pd.to_datetime(retail['Date'])
+
+'''Setting the 'Date' column as an index'''
+retail.set_index('Date', inplace=True)
+
+'''Determining the Monthly Sales'''
+sales_per_month = retail.resample('ME').sum()
+
+'''Plotting Sales over Time'''
+plt.style.use('fivethirtyeight')
+plt.figure(figsize=(8, 6))
+plt.plot(sales_per_month.index, sales_per_month['Total Amount'])
+plt.title("Monthly Sales")
+plt.xlabel("Period - Year/Month")
+plt.ylabel("Total Sales")
+plt.grid(True)
+plt.show()
+```
+
+Output:
+
+<p align="center">
+<img src="">
+</p>
 
 
 
