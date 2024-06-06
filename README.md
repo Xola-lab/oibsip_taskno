@@ -480,6 +480,62 @@ Output:
 </p>
 
 As can be seen, customer spending becomes steady in the months between March and November, however, it declines in January.
+In the period between May and July, Customer spending is at the most high.
+
+### Customer Demographics and Customer Behaviour
+
+```python
+# Customer and Product Analysis
+'''CUSTOMER DEMOGRAPHICS'''
+gender_dist = retail['Gender'].value_counts() # Gender distribution
+
+age_dist = retail['Age'].value_counts() # Age distribution
+
+gender_age = retail.groupby(['Gender', 'Age']).size().unstack() # Purchasing behaviour based on Gender and Age
+
+'''Plotting Customer Demographics'''
+plt.style.use('fivethirtyeight')
+plt.figure(figsize=(12, 6))
+
+plt.subplot(1, 2, 1)
+gender_dist.plot(kind='bar', color=['r', 'blue'])
+plt.title("Customer Distribution by Gender")
+plt.xlabel("Gender")
+plt.ylabel("Number of Customers")
+
+plt.subplot(1, 2, 2)
+age_dist.sort_index().plot(kind='bar', color='g')
+plt.title("Customer Distribution by Age")
+plt.xlabel("Age")
+plt.ylabel("Number of Customers")
+
+plt.tight_layout(pad=3)
+plt.show()
+
+'''PURCHASING BEHAVIOUR'''
+'''Total Spending Distribution'''
+plt.style.use('fivethirtyeight')
+sns.displot(retail['Total Amount']) # Selecting the 'Total Amount' column
+plt.title("Distribution of Total Amount Spent")
+plt.xlabel("Total Amount")
+plt.ylabel("Frequency")
+plt.grid(True)
+plt.show()
+
+'''Average Spending'''
+avg_spending_per_transaction = retail.groupby('Customer ID')['Total Amount'].mean().mean()
+
+'''Purchase Frequency'''
+purchases = retail['Customer ID'].value_counts().value_counts().sort_index()
+print("Purchasing Frequency: ", purchases)
+print("\nAverage Spending per Transaction: ${:.2f}".format(avg_spending_per_transaction))
+```
+
+Output:
+
+<p align="center">
+<img src="">
+</p>
 
 
 
