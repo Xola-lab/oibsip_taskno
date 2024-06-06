@@ -476,10 +476,10 @@ plt.show()
 Output:
 
 <p align="center">
-<img src="">
+<img src="3 - EDA on Retail Sails Data (Files)/SALES OVER TIME.png">
 </p>
 
-
+As can be seen, customer spending becomes steady in the months between March and November, however, it declines in January.
 
 
 
