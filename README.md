@@ -399,7 +399,7 @@ Then, the bar graph utilising Matplotlab. The outcome was as follows:
 <img src="2 - Wine Prediction (Files)/8a - DATA VIZ. - RESULT.png">
 </p>
 
-Now, it becomes clear what the accuracy of each model is. Clearly, the Random Forest Model is a much better model in this case, with the quality of wine nearly 66% accuracy.
+Now, it becomes clear what the accuracy of each model is. Clearly, the Random Forest Model is a much better model in this case, with the quality of wine nearly at 66% accuracy.
 
 ### Summary
 This project was not different from the first, it involved largely the same process (with a little difference in the number of models used). The process involved in this project were Importing the relevant Libraries, Data Inspection (getting a glimpse of the data), Checking for Duplicates and Null Values, Feature Selection, Data Preprocessing, Training the different models, Evaluating these models and, finally, Visualising the results.
