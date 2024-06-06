@@ -401,6 +401,8 @@ Then, the bar graph utilising Matplotlab. The outcome was as follows:
 
 Now, it becomes clear what the accuracy of each model is. Clearly, the Random Forest Model is a much better propensitor in this case followed by the Support Vector Classifier.
 
+### Model Deployment
+
 ### Summary
 This project was not different from the first, it involved largely the same process (with a little difference in the number of models used). The process involved in this project were Importing the relevant Libraries, Data Inspection (getting a glimpse of the data), Checking for Duplicates and Null Values, Feature Selection, Data Preprocessing, Training the different models, Evaluating these models and, finally, Visualising the results.
 
