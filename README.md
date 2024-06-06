@@ -396,8 +396,13 @@ Here, with the help of Python Lists, two variables were created; a 'models' vari
 Then, bar graph utilising Matplotlab. The outcome was as follows:
 
 <p align="center">
-<img src="">
+<img src="2 - Wine Prediction (Files)/8a - DATA VIZ. - RESULT.png">
 </p>
+
+Now, it becomes clear what the accuracy of each model is. Clearly, the Random Forest Model is a much better propensitor in this case followed by the Support Vector Classifier.
+
+### Summary
+
 
 
 
