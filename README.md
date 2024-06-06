@@ -539,4 +539,17 @@ Output:
 
 #### Customer Purchasing Behaviour
 
+<p align="center">
+<img src="3 - EDA on Retail Sails Data (Files)/TOTAL SPENDING DISTRIBUTION.png">
+</p>
+
+#### Average Spending
+
+```
+Average Spending per Transaction: $456.00
+```
+
+
+
+
 
