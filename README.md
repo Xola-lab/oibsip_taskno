@@ -404,8 +404,8 @@ Now, it becomes clear what the accuracy of each model is. Clearly, the Random Fo
 ### Summary
 This project was not different from the first, it involved largely the same process (with a little difference in the number of models used). The process involved in this project were Importing the relevant Libraries, Data Inspection (getting a glimpse of the data), Checking for Duplicates and Null Values, Feature Selection, Data Preprocessing, Training the different models, Evaluating these models and, finally, Visualising the results.
 
-
-
+## 3 - Exploratory Data Analysis (EDA) on Retail Sales Data
+(Project 1 Proposal, Level 1)
 
 
 
