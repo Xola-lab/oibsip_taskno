@@ -479,8 +479,7 @@ Output:
 <img src="3 - EDA on Retail Sails Data (Files)/SALES OVER TIME.png">
 </p>
 
-As can be seen, customer spending becomes steady in the months between March and November, however, it declines in January.
-In the period between May and July, Customer spending is at the most high.
+Here, observation led me to see that from March to November, the total spending was in a 'ranging' trend -- going up and down in a horizontal (or 'forward') direction. Then, in January, the spending impulsively dropped; indicating a lack of spending by the customers.
 
 ### Customer Demographics and Customer Purchasing Behaviour
 
@@ -542,8 +541,6 @@ Output:
 <p align="center">
 <img src="3 - EDA on Retail Sails Data (Files)/TOTAL SPENDING DISTRIBUTION.png">
 </p>
-
-Here, observation led me to see that from March to November, the total spending was in a 'ranging' trend -- going up and down in a horizontal (or 'forward') direction. Then, in January, the spending impulsively dropped; indicating a lack of spending by the customers.
 
 #### Average Spending
 
