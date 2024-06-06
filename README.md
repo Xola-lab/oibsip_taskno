@@ -479,7 +479,7 @@ Output:
 <img src="3 - EDA on Retail Sails Data (Files)/SALES OVER TIME.png">
 </p>
 
-Here, observation led me to the analysis that from February to December, the total spending was in a 'ranging' trend -- going up and down in a horizontal (or 'forward') direction with total spending being between 2000 to slightly above 5000. Then, in January, the spending impulsively dropped; indicating a lack of spending by the customers.
+Here, observation led me to the analysis that from February to December, the total spending was in a 'ranging' trend -- going up and down in a horizontal (or 'forward') direction with total spending ranging between 2000 to slightly above 5000. Then, in January, the spending impulsively dropped; indicating a lack of spending by the customers.
 
 ### Customer Demographics and Customer Purchasing Behaviour
 
@@ -535,6 +535,10 @@ Output:
 <p align="center">
 <img src="3 - EDA on Retail Sails Data (Files)/CUSTOMER DEMOGRAPHICS.png">
 </p>
+
+In the first case, if one pays attention to the Gender Distribution, it can be seen that there isn't much difference in the number of Males and Females -- although, the females do have a slight lead in numbers.
+
+Secondly, paying attention to the Age Distribution
 
 #### Customer Purchasing Behaviour
 
