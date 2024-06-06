@@ -548,6 +548,10 @@ Regardless, the data suggests that there are a high number of customers from alm
 <img src="3 - EDA on Retail Sails Data (Files)/TOTAL SPENDING DISTRIBUTION.png">
 </p>
 
+In in this case, we can see that customers who spend $0 - $200 have a high frequency indicating a high number of customer spending within the range. The rest of the spending has a low frequency: spending in the $800 range is lower compared with the $200 range, this is the same with spwnding in the $1000 - $1500 and $1800 - $2000 ranges.
+
+From this, we can make an elementary deduction: most items customers spend their money on are below $200, the secondary items they spend on are below $800. All the other items ranging between $1000 and $2000 have a low frequency of being spent on -- this can be attributed to several economic factors such as poverty.
+
 #### Average Spending
 
 ```
@@ -559,9 +563,18 @@ This, of course, should be clear enough: the average spending per transaction by
 ### Summary
 It is surely recommended that Business looking at this analysis should produce more items in the period between March and November, maybe even more in June. Additionally, Businesses should reduce production in January.
 
-## Conclusion
-These three projects have been insightful to me, in my journey to uncovering the insights contained in all the data, I stumbled upon a couple of problems -- problems that required logic and deduction (of course, domain knowledge and business rules as well).
+Businesses should seek to produce more items that meet the level of living of the people, taking into consideration economic factors.
 
+## Conclusion
+These three projects have been insightful to me, in my journey to uncovering the insights contained in all the data, I stumbled upon a couple of problems -- problems that required a little bit of research before engagement.
+
+Consider the following: the Analysis process involved in these projects in not dissimilar to a string, a thread -- with a beginning an end. This thread sometimes broke and, with a bit of logic and deduction (not forgetting a little bit domain knowledge), I was able to tie these points where the thread broke and when that didn't help I had pull some new thread and make new connections.
+
+This 'thread' began with getting the data inspected under a lense, then selecting 'features if interest' -- parts of the data that was relevant. In two of the cases, these features of interest had to be trained to create predictive models.
+
+In my intimacy with this thread I was able to discover 'hidden meanings' in the data and arriving at insightful conclusions, thereby solving the mystery of it all -- turning raw data to digestible pieces.
+
+THANK YOU!
 
 
 
