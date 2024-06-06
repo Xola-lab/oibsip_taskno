@@ -549,6 +549,16 @@ Output:
 Average Spending per Transaction: $456.00
 ```
 
+This, of course, should be clear enough: the average spending per transaction by the customers is $456.00.
+
+### Summary
+It is surely recommended that Business looking at this analysis should produce more items in the period between March and November, maybe even more in June.
+
+## Conclusion
+These three projects have been insightful to me, in my journey to uncovering the insights contained in all the data, I stumbled upon a couple of problems -- problems that required logic and deduction (of course, domain knowledge and business rules as well).
+
+
+
 
 
 
