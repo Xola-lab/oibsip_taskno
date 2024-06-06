@@ -22,7 +22,7 @@ Python - EDA, Cleaning, Analysis and Visualisation.
 
 ### Data Preparation and Cleaning
 To get started, I imported all the relevant libraries:
-```
+```python
 # Importing the Libraries
 import pandas as pd
 import matplotlib.pyplot as plt
