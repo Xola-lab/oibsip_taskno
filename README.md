@@ -543,6 +543,8 @@ Output:
 <img src="3 - EDA on Retail Sails Data (Files)/TOTAL SPENDING DISTRIBUTION.png">
 </p>
 
+Here, observation led me to see that from March to November, the total spending was in a 'ranging' trend -- going up and down in a horizontal (or 'forward') direction. Then, in January, the spending impulsively dropped; indicating a lack of spending by the customers.
+
 #### Average Spending
 
 ```
@@ -552,7 +554,7 @@ Average Spending per Transaction: $456.00
 This, of course, should be clear enough: the average spending per transaction by the customers is $456.00.
 
 ### Summary
-It is surely recommended that Business looking at this analysis should produce more items in the period between March and November, maybe even more in June.
+It is surely recommended that Business looking at this analysis should produce more items in the period between March and November, maybe even more in June. Additionally, Businesses should reduce production in January.
 
 ## Conclusion
 These three projects have been insightful to me, in my journey to uncovering the insights contained in all the data, I stumbled upon a couple of problems -- problems that required logic and deduction (of course, domain knowledge and business rules as well).
