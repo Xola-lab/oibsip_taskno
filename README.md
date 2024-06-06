@@ -482,7 +482,7 @@ Output:
 As can be seen, customer spending becomes steady in the months between March and November, however, it declines in January.
 In the period between May and July, Customer spending is at the most high.
 
-### Customer Demographics and Customer Behaviour
+### Customer Demographics and Customer Purchasing Behaviour
 
 ```python
 # Customer and Product Analysis
@@ -532,10 +532,11 @@ print("\nAverage Spending per Transaction: ${:.2f}".format(avg_spending_per_tran
 ```
 
 Output:
-
+#### Customer Demographics
 <p align="center">
-<img src="">
+<img src="3 - EDA on Retail Sails Data (Files)/CUSTOMER DEMOGRAPHICS.png">
 </p>
 
+#### Customer Purchasing Behaviour
 
 
