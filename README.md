@@ -2,7 +2,7 @@
 There are 3 projects under this repo:
 - Predicting House Prices using Linear Regression
 - Wine Quality Prediction
-- Google Playstore Data Analysis
+- Exploratory Data Analysis (EDA) on Retail Sales Data
 
 ## 1 - Predicting House Prices with Linear Regression
 (Project 1 Proposal. Level 2.)
@@ -173,7 +173,7 @@ Athough in the correlation analysis there was a weak correlation, the linear reg
 
 Other conditions of the model have been met, despite the weak correlation; and therefore, the model still produced valid results.
 
-#### Summary:
+### Summary:
 This project involved Exploring and Cleaning the data, Feature Selection, Model Training and Evaluation, Making the Prediction, and finally, Visualisation.
 
 ## 2 - Wine Quality Prediction
@@ -376,7 +376,7 @@ Support Vector Classifier:
 If these evaluations do not make sense at this point, fret not, the last part of the project will clear it up.
 
 ### Data Visualisation
-This was final step involves visualising the accuracy each of these models:
+This final step involves visualising the accuracy each of these models:
 
 ```
 # Plotting and Visualisation -- Data Visualisation
@@ -393,7 +393,7 @@ plt.show()
 ```
 
 Here, with the help of Python Lists, two variables were created; a 'models' variable to fit the names of the models and an 'accuracy' variable to fit the accuracies of each model.
-Then, bar graph utilising Matplotlab. The outcome was as follows:
+Then, the bar graph utilising Matplotlab. The outcome was as follows:
 
 <p align="center">
 <img src="2 - Wine Prediction (Files)/8a - DATA VIZ. - RESULT.png">
@@ -402,7 +402,7 @@ Then, bar graph utilising Matplotlab. The outcome was as follows:
 Now, it becomes clear what the accuracy of each model is. Clearly, the Random Forest Model is a much better propensitor in this case followed by the Support Vector Classifier.
 
 ### Summary
-
+This project was not different from the first, it involved largely the same process (with a little difference in the number of models used). The process involved in this project were Importing the relevant Libraries, Data Inspection (getting a glimpse of the data), Checking for Duplicates and Null Values, Feature Selection, Data Preprocessing, Training the different models, Evaluating these models and, finally, Visualising the results.
 
 
 
