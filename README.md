@@ -399,9 +399,7 @@ Then, the bar graph utilising Matplotlab. The outcome was as follows:
 <img src="2 - Wine Prediction (Files)/8a - DATA VIZ. - RESULT.png">
 </p>
 
-Now, it becomes clear what the accuracy of each model is. Clearly, the Random Forest Model is a much better propensitor in this case followed by the Support Vector Classifier.
-
-### Model Deployment
+Now, it becomes clear what the accuracy of each model is. Clearly, the Random Forest Model is a much better model in this case, with the quality of wine nearly 66% accuracy.
 
 ### Summary
 This project was not different from the first, it involved largely the same process (with a little difference in the number of models used). The process involved in this project were Importing the relevant Libraries, Data Inspection (getting a glimpse of the data), Checking for Duplicates and Null Values, Feature Selection, Data Preprocessing, Training the different models, Evaluating these models and, finally, Visualising the results.
@@ -409,6 +407,8 @@ This project was not different from the first, it involved largely the same proc
 ## 3 - Exploratory Data Analysis (EDA) on Retail Sales Data
 (Project 1 Proposal, Level 1)
 
+### Overview
+The objective here is to perform Exploratory Data Analysis (EDA) to uncover Patterns, Trends, and Insights that can be helpful in making informed business decisions.
 
 
 
