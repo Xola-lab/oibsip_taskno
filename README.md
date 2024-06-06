@@ -479,7 +479,7 @@ Output:
 <img src="3 - EDA on Retail Sails Data (Files)/SALES OVER TIME.png">
 </p>
 
-Here, observation led me to the analysis that from February to December, the total spending was in a 'ranging' trend -- going up and down in a horizontal (or 'forward') direction. Then, in January, the spending impulsively dropped; indicating a lack of spending by the customers.
+Here, observation led me to the analysis that from February to December, the total spending was in a 'ranging' trend -- going up and down in a horizontal (or 'forward') direction with total spending being between 2000 to slightly above 5000. Then, in January, the spending impulsively dropped; indicating a lack of spending by the customers.
 
 ### Customer Demographics and Customer Purchasing Behaviour
 
