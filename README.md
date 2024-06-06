@@ -574,7 +574,7 @@ This 'thread' began with getting the data inspected under a lense, then selectin
 
 In my intimacy with this thread I was able to discover 'hidden meanings' in the data and arriving at insightful conclusions, thereby solving the mystery of it all -- turning raw data to digestible pieces.
 
-THANK YOU!
+I look forward to picking up the threads of this tangled web of Data Analytics - THANK YOU!
 
 
 
