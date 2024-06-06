@@ -392,7 +392,12 @@ plt.ylim(0, 1)
 plt.show()
 ```
 
+Here, with the help of Python Lists, two variables were created; a 'models' variable to fit the names of the models and an 'accuracy' variable to fit the accuracies of each model.
+Then, bar graph utilising Matplotlab. The outcome was as follows:
 
+<p align="center">
+<img src="">
+</p>
 
 
 
