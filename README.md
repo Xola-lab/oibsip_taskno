@@ -33,13 +33,13 @@ from sklearn.metrics import mean_squared_error
 from skelearn.metrics import r2_score
 ```
 I then proceeded to load the data:
-```
+```python
 housing = pd.DataFrame(pd.read_csv("Housing.csv")
 ```
 
 To get a glance at the data, I performed some simple commands:
 - I looked at the info() function to understand the rows and columns I was dealing with
-```
+```python
 housing.info()
 ```
 
@@ -50,7 +50,7 @@ housing.info()
 There were 545 rows and 13 columns.
 
 - I then checked if the data had any duplicated values
-```
+```python
 housing.duplicated()
 ```
 There  were no duplicates in the data.
@@ -60,7 +60,7 @@ There  were no duplicates in the data.
 </p>
 
 - I also checked for any null values in the dataset
-```
+```python
 housing.isnull().sum()
 ```
 There were no missing values in the data:
@@ -74,7 +74,7 @@ The Data did not contain any duplicated values or any null values.
 ### Feature Selection
 The data contains Quantitative and Categorical Data. To make the model, we need only the Quantitative data. 
 So, I removed the Categorical data in the dataset with the following code:
-```
+```python
 relevant_feats = housing.drop(
     [
         'mainroad', 'guestroom', 'basement', 'hotwaterheating', 'airconditioning', 'prefarea', 'furnishingstatus'
@@ -85,7 +85,7 @@ The data being dropped here are the columns containing Categorical data (e.g., "
 The only data remaining now was the relevant features needed for the analysis.
 
 Then, having removed the Categorical data, I set the Target (y) and Features (X) variables:
-```
+```python
 y = relevant_feats.iloc[:, [0]].values # The 'price' column -- Target.
 X = relevant feats.iloc[:, [1, 2, 3, 4, 5]].values # The 'area' to 'parking' columns -- Features.
 ```
@@ -100,7 +100,7 @@ Only 6 columns were chosen, 'price' being the target and the rest of the columns
 
 ### Exploratory Data Analysis 
 The next thing I did was do a correlation check on the remaining data, I did this by utilising Seaborn's heat map:
-```
+```python
 sns.heatmap(relevant_feats.corr(), annot=True, cmap='coolwarm')
 plot.show()
 ```
@@ -116,7 +116,7 @@ Although the correlation had a relatively weak linear relationship (less than 0.
 
 ### Model Training
 This process involved splitting the data into a Training and a Test Set, creating a Regressor, and fitting the model:
-```
+```python
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 reg = LinearRegression()
@@ -126,13 +126,13 @@ reg.fit(X_train, y_train)
 ### Prediction
 After the model had been trained and a fitting done, the next step was to make a prediction.
 For making the prediction, I used the following code:
-```
+```python
 y_pred = reg.predict(X_test)
 ```
 
 ### Model Evaluation 
 The next step in the process was to evaluate the performance of the model:
-```
+```python
 print("Coefficients: \n", reg.coef_)
 print("Variance Score: {}".format(reg.score(X_test, y_test)))
 
@@ -154,7 +154,7 @@ But what does this mean? Firstly, the variance score here means that nearly 54.6
 
 ### Data Visualisation 
 The last and final step was to plot the regression:
-```
+```python
 plt.style.use('fivethirtyeight')
 plt.scatter(y_pred, y_test, color='g')
 plt.suptitle('Actual vs. Predicted House Prices')
@@ -195,7 +195,7 @@ Python - EDA, Cleaning, Data Analysis, and Data Visualisation.
 
 ### Library and Data Import
 The first thing here is to import all the required libraries:
-```
+```python
 # Library Import
 '''Dealing with the raw data'''
 import pandas as pd
@@ -217,7 +217,7 @@ from sklearn.metrics import accuracy_score, classification_report as report
 ```
 
 Then, loading the Data:
-```
+```python
 # Data Import
 wine = pd.DataFrame(pd.read_csv("WineQT.csv"))
 ```
@@ -225,7 +225,7 @@ wine = pd.DataFrame(pd.read_csv("WineQT.csv"))
 ### Data Cleaning
 These next steps are not dissimilar from the first project. Here, I inspected the data first and checked for any duplicates or null values.
 
-```
+```python
 '''Cleaning'''
 print(wine.duplicated())
 print(wine.isnull().sum())
@@ -244,7 +244,7 @@ Fortunately, this dataset also had neither Duplicates nor Null Values:
 ### Feature Selection
 Again, it was imperative to select the relevant features for the models:
 
-```
+```python
 # (Chemical Qualities) Selecting Density and Acidity -- Feature Selection
 '''First, we want to drop all characteristics that are deemed irrelevant'''
 chemical_chars = wine.drop(
@@ -269,7 +269,7 @@ Having dropped these other features, the remaining features were as follows:
 ### Data Preprocessing
 With the relevant data selected, it was now time to explore the data by checking Correlation and Distribution:
 
-```
+```python
 # Exploratory Data Analysis (EDA) -- Data Preprocessing
 '''Correlation Check'''
 sns.heatmap(chemical_chars.corr(), annot=True, cmap='coolwarm')
@@ -301,7 +301,7 @@ Essentially, what this means/depicts is the Distribution of each quality with ea
 This step is similar to the first project and, as you'll see, the only difference is that there is more than one Model -- There are three models, each simple to initiate.
 However, it would be remiss not to split the data before model selection, so the first step was to split the data and then train the three models as well as fit the models to the data and, lastly, making the predictions and providing the accuracy scores:
 
-```
+```python
 # Validation Split: Training and Test Sets -- Model Training/Classifier Models
 '''Splitting the Data'''
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
@@ -331,7 +331,7 @@ svc_acc = accuracy_score(y_test, svc_pred)
 ### Model Performance
 Having trained the models, the next step in the process is to provide each model's performance:
 
-```
+```python
 # Performance Check -- Model Evaluation
 print("MODEL EVALUATION")
 '''Model 1 Evaluation'''
@@ -378,7 +378,7 @@ If these evaluations do not make sense at this point, fret not, the last part of
 ### Data Visualisation
 This final step involves visualising the accuracy each of these models:
 
-```
+```python
 # Plotting and Visualisation -- Data Visualisation
 models = ["Random Forest Model", "Stochastic Gradient Descent", "Support Vector Classifier"]
 accuracy = [rand_f_acc, sgd_acc, svc_acc]
