@@ -538,7 +538,9 @@ Output:
 
 In the first case, if one pays attention to the Gender Distribution, it can be seen that there isn't much difference in the number of Males and Females -- although, the females do have a slight lead in numbers.
 
-Secondly, paying attention to the Age Distribution
+Secondly, paying attention to the Age Distribution, we can see that people within the ages 22, 34, 43, 51, 54, 57, 62, and 64 have the highest number of customers whilst 33 and 58 year-olds have the lowest number of customers.
+
+Regardless, the data suggests that there are a high number of customers from almost all age groups -- excluding 70 to 80 year-olds.
 
 #### Customer Purchasing Behaviour
 
