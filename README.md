@@ -410,9 +410,41 @@ This project was not different from the first, it involved largely the same proc
 ### Overview
 The objective here is to perform Exploratory Data Analysis (EDA) to uncover Patterns, Trends, and Insights that can be helpful in making informed business decisions.
 
+### Data Sources
+Kaggle: The data for this last prpject was also collected from Kaggle.
 
+### Tools
+Python -- EDA, Data Visualisation
+- Pandas
+- Matplotlib
+- Seaborn
 
+### Library Import, Data Import, and Data Inspection
+```python
+# Library Import
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
+# Data Import
+retail = pd.DataFrame(pd.read_csv("retail_sales_dataset.csv"))
+
+# Data Inspection
+'''The first 10 rows associated with the Data'''
+print(retail.head(10))
+
+'''Summary Statistics of the Data'''
+print(retail.describe())
+
+'''Checking and Handling Missing Values'''
+print(retail.isnull().sum())
+```
+
+Output:
+
+<p align="center">
+<img src="">
+</p>
 
 
 
