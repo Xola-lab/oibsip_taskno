@@ -446,6 +446,8 @@ Output:
 <img src="3 - EDA on Retail Sails Data (Files)/EXPLORATION.png">
 </p>
 
+The columns associated with this dataset are seven and the data has no missing values.
+
 ### Sales Over Time Analysis
 
 ```python
