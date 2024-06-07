@@ -1,8 +1,13 @@
 # Projects Overview
-There are 3 projects under this repo:
+#### There are 3 projects under this repo:
 - Predicting House Prices using Linear Regression
 - Wine Quality Prediction
 - Exploratory Data Analysis (EDA) on Retail Sales Data
+
+#### References
+Books:
+- Machine Learning with Python
+- Practical Statistics for Data Scientists
 
 ## 1 - Predicting House Prices with Linear Regression
 (Project 1 Proposal. Level 2.)
