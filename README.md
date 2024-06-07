@@ -7,7 +7,7 @@
 #### References
 Books:
 - Machine Learning with Python
-- Practical Statistics for Data Scientists. 2nd ed. Peter Bruce, Andrew Bruce, and Peter Godock
+- Practical Statistics for Data Scientists. 2nd ed. Peter Bruce, Andrew Bruce, and Peter Gedeck
 
 ## 1 - Predicting House Prices with Linear Regression
 (Project 1 Proposal. Level 2.)
