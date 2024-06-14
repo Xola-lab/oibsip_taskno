@@ -172,7 +172,7 @@ This was the resulting graph:
 
 <p align="center">
 <IMG
-SRC="1 - House Price Prediction (Files)/9a - DATA VIZ. - RESULT.png"
+SRC="1 - House Price Prediction (Files)/VISUAL_124426.png"
 </p>
 
 Athough in the correlation analysis there was a weak correlation, the linear regression model still accounted for these factors and still found a linear relationship. Also, the size of the sample played a role in this result: 80% of the Housing data was used for training the model, whilst the remaining 20% was used for testing the model. Another thing to consider is that Linear Regression assumes a linear relationship between the Target variable and the Features.
