@@ -72,7 +72,8 @@ print("R Squared Score: ", rs)
 
 # Plotting and Visualising the Regression -- Data Visualisation
 plt.style.use('fivethirtyeight')
-plt.scatter(y_pred, y_test, color='g')
+plt.scatter(y_test, y_pred, color='g')
+plot.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], lw=2, colour="r")
 plt.suptitle('Actual vs. Predicted House Prices')
 plt.xlabel('Actual Price')
 plt.ylabel('Predicted Prices')
