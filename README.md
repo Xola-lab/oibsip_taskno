@@ -39,7 +39,7 @@ from skelearn.metrics import r2_score
 ```
 I then proceeded to load the data:
 ```python
-housing = pd.DataFrame(pd.read_csv("Housing.csv")
+housing = pd.DataFrame(pd.read_csv("Housing.csv"))
 ```
 
 To get a glance at the data, I performed some simple commands:
